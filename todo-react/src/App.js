@@ -5,6 +5,9 @@ import Reducers from './Reducers';
 import Signup from './Signup';
 import RefWebhooks from './RefWebhooks';
 import Todo from './Todo';
+import { ThemeProvider } from './useContext/ThemeProvider';
+import Navbar from './useContext/NavBar';
+
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
       <Reducers/> */}
       {/* <Signup></Signup> */}
      {/* < RefWebhooks/> */}
-     <Todo/>
+     {/* <Todo/> */}
+     <ThemeProvider>
+      <Navbar />
+    </ThemeProvider>
     </div>
   );
 }
