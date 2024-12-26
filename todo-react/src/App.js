@@ -7,6 +7,9 @@ import RefWebhooks from './RefWebhooks';
 import Todo from './Todo';
 import { ThemeProvider } from './useContext/ThemeProvider';
 import Navbar from './useContext/NavBar';
+import Toggle from './Toggle';
+import Input from './Task/Input';
+import Todolist1 from './Todolist1';
 
 
 function App() {
@@ -18,9 +21,13 @@ function App() {
       {/* <Signup></Signup> */}
      {/* < RefWebhooks/> */}
      {/* <Todo/> */}
-     <ThemeProvider>
+     {/* <ThemeProvider>
       <Navbar />
-    </ThemeProvider>
+    </ThemeProvider> */}
+    {/* <Toggle /> */}
+    {/* <Input /> */}
+
+    <Todolist1 />
     </div>
   );
 }
