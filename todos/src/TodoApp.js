@@ -3,7 +3,7 @@ import React, { useState, useRef, useMemo } from "react";
 function TodoApp() {
   const [todos, setTodos] = useState([
     { id: 1, task: "Learn React", completed: false },
-    { id: 2, task: "Build a project", completed: true },
+    { id: 2, task: "Build a project", completed: false },
   ]);
   const [newTask, setNewTask] = useState("");
   const inputRef = useRef(null);

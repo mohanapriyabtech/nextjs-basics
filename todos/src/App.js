@@ -6,7 +6,6 @@ import TodoApp from './TodoApp';
 function App() {
   return (
    <>
-   <ProductList/>
    <TodoApp/>
    </>
   );
